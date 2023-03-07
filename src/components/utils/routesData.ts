@@ -1,7 +1,7 @@
 import { TRoutesUrl } from "../../services/types/data";
 
 const routesUrl: TRoutesUrl = {
-  homePage: "/",
+  homePage: "/main",
 };
 
 export { routesUrl };

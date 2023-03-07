@@ -8,7 +8,7 @@
   z-index: 9999;
   position: sticky;
   top: 0;
-  background-color: rgb(27 28 30);
+  background-color: rgb(16 16 16);
 }
 
 .logo {
@@ -38,6 +38,7 @@
 .link {
   margin: 0;
   padding: 0;
+  width: fit-content;
   text-decoration: none;
   color: white;
   font-size: 18px;

@@ -1,0 +1,95 @@
+.footer {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  min-height: 300px;
+  background-color: rgb(13, 13, 13);
+}
+
+.container {
+  margin: 0 auto;
+  padding: 40px 60px 0;
+  max-width: 1440px;
+  min-height: 300px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.box {
+  margin: 0;
+  padding: 0;
+  width: 330px;
+}
+
+.title {
+  margin: 0 auto;
+  padding: 0 0 20px;
+  font-size: 24px;
+  text-align: end;
+  text-transform: uppercase;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  row-gap: 10px;
+}
+
+.listItem {
+  margin: 0;
+  padding: 0;
+  width: fit-content;
+  text-decoration: none;
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  opacity: 0.7;
+  transition: all 0.15s ease-in;
+  cursor: pointer;
+}
+
+.listItem:hover {
+  opacity: 1;
+  scale: 1.1;
+}
+
+.item {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.icon {
+  margin: 0;
+  padding: 0;
+  width: 16px;
+  height: 16px;
+}
+
+.text {
+  margin: 0;
+  padding: 0;
+  color: #bdc1c6;
+}
+
+.wishes {
+  width: 240px;
+  height: 240px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 28px;
+  color: #bdc1c6;
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 0.7;
+  border: 1px solid #bdc1c6;
+  border-radius: 5px;
+  cursor: pointer;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  outline: none;
+  display: block;
+}

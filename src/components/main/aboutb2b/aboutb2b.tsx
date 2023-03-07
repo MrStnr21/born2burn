@@ -2,7 +2,7 @@ import { FC } from "react";
 
 import stylesAboutB2B from "./aboutb2b.module.css";
 
-import founders from "../../images/founders/founders.png";
+import founders from "../../../images/founders/founders.png";
 
 const AboutB2B: FC = () => {
   return (

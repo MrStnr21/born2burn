@@ -1,8 +1,10 @@
 import { FC } from "react";
 
 import { AppHeader } from "../../components/app-header/app-header";
-import { Welcome } from "../../components/welcome/welcome";
-import { AboutB2B } from "../../components/aboutb2b/aboutb2b";
+import { Welcome } from "../../components/main/welcome/welcome";
+import { AboutB2B } from "../../components/main/aboutb2b/aboutb2b";
+import { Members } from "../../components/main/members/members";
+import { Footer } from "../../components/footer/footer";
 
 const MainPage: FC = () => {
   return (
@@ -10,6 +12,8 @@ const MainPage: FC = () => {
       <AppHeader />
       <Welcome />
       <AboutB2B />
+      <Members />
+      <Footer />
     </>
   );
 };

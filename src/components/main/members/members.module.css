@@ -1,0 +1,145 @@
+.container {
+  margin: 0 auto;
+  padding: 40px 60px 0;
+  max-width: 1440px;
+  border-top: 1px solid #565656;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  height: 70px;
+  font-size: 80px;
+  font-family: doomLeft;
+  font-weight: normal;
+}
+
+.infoContainer {
+  margin: 0;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.infoContainer:last-of-type {
+  flex-direction: row-reverse;
+}
+
+.text {
+  margin: 0;
+  padding: 0;
+  width: 690px;
+}
+
+.name {
+  margin: 0 auto;
+  padding: 0;
+  font-family: doomLeft;
+  font-weight: normal;
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.article {
+  margin: 0;
+  padding: 0;
+}
+
+.membersList {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.5rem;
+  list-style-type: none;
+}
+
+.memberItem {
+  margin: 0;
+  padding: 60px 0 60px 0;
+  border-top: 1px solid #565656;
+}
+
+.memberItem:first-of-type {
+  border-top: none;
+}
+
+.image {
+  margin: 0;
+  padding: 0;
+  width: 690px;
+}
+
+.collageContainer {
+  margin: 0;
+  padding: 0;
+  max-width: 1440px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.collage {
+  margin: 0;
+  padding: 0;
+  height: 500px;
+}
+
+.iconContainer {
+  margin: 0;
+  padding: 0 0 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5px;
+}
+
+.iconScroll,
+.iconScroll:before {
+  margin: 0;
+  padding-top: 0;
+  position: relative;
+}
+
+.iconScroll {
+  width: 35px;
+  height: 20px;
+  box-shadow: inset 0 0 0 1px #9a9a9a;
+  border-radius: 25px;
+  display: flex;
+}
+
+.iconScroll:before {
+  content: "";
+  width: 4px;
+  height: 4px;
+  background: #fff;
+  margin: 8px 0;
+  border-radius: 2px;
+  animation-direction: alternate;
+  animation-duration: 1s;
+  animation-name: move;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes move {
+  0% {
+    opacity: 0.1;
+    margin-left: 10px;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    margin-left: 25px;
+    opacity: 0.1;
+  }
+}
+
+.iconTip {
+  margin: 0;
+  padding: 0;
+  opacity: 0.4;
+}

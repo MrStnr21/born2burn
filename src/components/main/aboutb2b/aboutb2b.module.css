@@ -1,9 +1,9 @@
 .container {
   margin: 0 auto;
-  padding: 120px 60px 0;
+  padding: 80px 60px 40px;
   max-width: 1440px;
   display: flex;
-  column-gap: 60px;
+  justify-content: space-between;
 }
 
 .title {
@@ -36,9 +36,8 @@
 }
 
 .image {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   width: 690px;
-  height: 460px;
   background-size: cover;
 }

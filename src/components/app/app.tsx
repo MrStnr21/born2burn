@@ -10,7 +10,7 @@ import { routesUrl } from "../utils/routesData";
 
 const App: FC = () => {
   return (
-    <div className={`${stylesApp.App}`}>
+    <div className={stylesApp.App}>
       <Routes>
         <Route path={routesUrl.homePage} element={<MainPage />}></Route>
       </Routes>

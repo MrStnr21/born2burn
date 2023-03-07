@@ -2,7 +2,7 @@ import { FC } from "react";
 
 import stylesWelcome from "./welcome.module.css";
 
-import background from "../../images/founders/welcome.png";
+import background from "../../../images/founders/welcome.png";
 
 const Welcome: FC = () => {
   return (

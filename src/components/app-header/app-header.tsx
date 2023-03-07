@@ -8,28 +8,28 @@ import stylesAppHeader from "./app-header.module.css";
 
 const AppHeader: FC = () => {
   return (
-    <header className={`${stylesAppHeader.header}`}>
-      <img className={`${stylesAppHeader.logo}`} src={Logo} alt="Born2Burn" />
-      <div className={`${stylesAppHeader.container}`}>
-        <nav className={`${stylesAppHeader.navigation}`}>
-          <ul className={`${stylesAppHeader.menu}`}>
+    <header className={stylesAppHeader.header}>
+      <img className={stylesAppHeader.logo} src={Logo} alt="Born2Burn" />
+      <div className={stylesAppHeader.container}>
+        <nav className={stylesAppHeader.navigation}>
+          <ul className={stylesAppHeader.menu}>
             <li>
-              <NavLink to="#" className={`${stylesAppHeader.link}`}>
+              <NavLink to="#" className={stylesAppHeader.link}>
                 Home
               </NavLink>
             </li>
             <li>
-              <NavLink to="#" className={`${stylesAppHeader.link}`}>
+              <NavLink to="#" className={stylesAppHeader.link}>
                 Shop
               </NavLink>
             </li>
             <li>
-              <NavLink to="#" className={`${stylesAppHeader.link}`}>
+              <NavLink to="#" className={stylesAppHeader.link}>
                 Album
               </NavLink>
             </li>
             <li>
-              <NavLink to="#" className={`${stylesAppHeader.link}`}>
+              <NavLink to="#" className={stylesAppHeader.link}>
                 More
               </NavLink>
             </li>
